@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/edit_text"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="130px"
+                android:gravity="center|left"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/bfi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="110px"
+                    android:background="@android:drawable/btn_default"
+                    android:backgroundTint="@android:color/holo_green_dark"
+                    android:text="Fecha de inicio" />
+                <EditText
+                    android:id="@+id/txtfi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="120px"
+                    android:hint="Fecha de inicio"
+                    android:textAlignment="center"
+                    />
+                <CheckBox
+                    android:id="@+id/verification_bfi"
+                    android:layout_width="100px"
+                    android:layout_height="100px"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="130px"
+                android:gravity="center|left"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/bff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="110px"
+                    android:background="@android:drawable/btn_default"
+                    android:backgroundTint="@android:color/holo_green_dark"
+                    android:text="Fecha final" />
+                <EditText
+                    android:id="@+id/txtff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="120px"
+                    android:hint="Fecha final"
+                    android:textAlignment="center"
+                    />
+                <CheckBox
+                    android:id="@+id/verification_bff"
+                    android:layout_width="100px"
+                    android:layout_height="100px"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/edit_text"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200px"
+                android:background="@android:drawable/edit_text"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/txtgenero"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:hint="Género H/M"
+                    android:inputType="textPersonName"
+                    android:maxLength="1"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="Ingrese H/M para indicar que eres Hombre o Mujer"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_dark" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200px"
+                android:background="@android:drawable/edit_text"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/txtsc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:hint="semanas cotizadas"
+                    android:inputType="number"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="No. Semanas cotizadas"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_dark" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200px"
+                android:background="@android:drawable/edit_text"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/txtedad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:hint="Edad"
+                    android:inputType="number"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="Ingrese su edad actual"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_dark" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:drawable/edit_text"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="200px"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/txtps1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:ems="10"
+                        android:hint="Promedio salarial"
+                        android:inputType="numberDecimal"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="Primer año"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/background_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200px"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/txtps2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:ems="10"
+                        android:hint="Promedio salarial"
+                        android:inputType="numberDecimal"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="Segundo año"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/background_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200px"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/txtps3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:ems="10"
+                        android:hint="Promedio salarial"
+                        android:inputType="numberDecimal"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="Tercer año"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/background_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200px"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/txtps4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:ems="10"
+                        android:hint="Promedio salarial"
+                        android:inputType="numberDecimal"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="Cuarto año"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/background_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200px"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/txtps5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:ems="10"
+                        android:hint="Promedio salarial"
+                        android:inputType="numberDecimal"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="Quinto año"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/background_dark" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Salario promedio de las ultimas 250 semanas"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <CheckBox
+                    android:id="@+id/verification_segurity"
+                    android:layout_width="100px"
+                    android:layout_height="100px"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="¿Deseas invertir en el seguro?"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/background_cantidad_invertir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@android:drawable/edit_text"
+                android:gravity="center_horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="600px"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <EditText
+                        android:id="@+id/cantidad_invertir"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Años a invertir"
+                        android:inputType="numberDecimal"
+                        android:maxLength="2"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/cantidad_invertir_mes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Sueldo a invertir"
+                        android:inputType="numberDecimal"
+                        android:textAlignment="center" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/background_cantidad_invertir_"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    >
+
+                    <Button
+                        android:id="@+id/ok_"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Aceptar" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal"
+            android:background="@android:drawable/edit_text"
+            >
+            <Button
+                android:id="@+id/bc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="calcular"
+                />
+
+            <Button
+                android:id="@+id/bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Graph_"
+                android:text="graficar" />
+
+            <Button
+                android:id="@+id/limpiar_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="limpiar"
+                android:text="Limpiar" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@android:drawable/edit_text"
+            >
+            <TextView
+                android:layout_width="600px"
+                android:layout_height="wrap_content"
+                android:text="Resultados"
+                android:textColor="@android:color/background_dark"
+                android:textAlignment="center"
+                />
+
+            <TextView
+                android:id="@+id/txtresult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- - -"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/txttotal_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="- - -"
+                />
+            <TextView
+                android:id="@+id/meses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/background_dark"
+                android:textAlignment="center"
+                android:text="- - -"
+                />
+            <LinearLayout
+                android:id="@+id/pantalla"
+                android:layout_width="match_parent"
+                android:layout_height="600px"
+                android:orientation="horizontal">
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+</android.support.constraint.ConstraintLayout>

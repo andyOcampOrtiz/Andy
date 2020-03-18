@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">PruebaQro</string>
+    <string name="bt1">Registro de Alumno</string>
+    <string name="bt2">Registro de Escuela</string>
+    <string name="btn3">Registar Padre</string>
+    <string name="bnt6">Registrar Madre</string>
+    <string name="btregistraralumno">Registrar</string>
+    <string name="btnregistrarpadres">Registrar</string>
+    <string name="nombrealumno">Nombre completo del alumno</string>
+    <string name="nombrepadre">Nombre completo del padre</string>
+    <string name="nombremadre">Nombre completo de la madre</string>
+    <string name="btnregistrarescuela">Registrar</string>
+    <string name="nombreEscuela">Nombre de a escuela</string>
+    <string name="idescuela">codigo</string>
+    <string name="idpadres">codigo</string>
+    <string name="idalumnos">codigo</string>
+    <string name="btn4">Enlazar escuela a alumno</string>
+    <string name="btn5">Buscar</string>
+    <string name="idenlacealum">codigo alumno</string>
+    <string name="idenlaceesc">codigo escuela</string>
+    <string name="btnenlaceescuelaalumno">enlazar</string>
+    <string name="idpadresalumnos">codigo de padres</string>
+    <string name="idmadresalumnos">codigo de madres</string>
+    <string name="consultanombre">Nombre del alumno</string>
+    <string name="btnconsulta">Buscar</string>
+    <string name="codigoenlace">Codigo Enlace</string>
+    <string name="codigomadres">Codigo madres</string>
+    <string name="btnregistrarmadre">Registrar</string>
+    <string name="btneliminar">Elminar</string>
+    <string name="btnactualizar">Actualizar</string>
+
+</resources>

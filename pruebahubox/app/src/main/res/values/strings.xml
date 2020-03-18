@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Aplicación Volado</string>
+    <string name="title_activity_main2">Aplicación Volado</string>
+    <string name="boton1">Ver Resultado</string>
+    <string name="boton2">Volver</string>
+    <string name="tv_resultado">Resultado</string>
+</resources>
